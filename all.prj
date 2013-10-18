@@ -1,0 +1,170 @@
+/Users/sunnyding602/github_commbo_game/z_framework=/Users/sunnyding602/github_commbo_game/z_framework CD=/Users/sunnyding602/github_commbo_game/z_framework filter="*.php *.js *.css *.tpl *.html *.txt *.htm" {
+ index.php
+ app=app {
+  default=default {
+   controller=controller {
+   DefaultController.php
+   }
+   template=template {
+    index.html
+   }
+  }
+ }
+ config=config {
+  autoloader.php
+  config.php
+  init.php
+ }
+ css=css {
+ }
+ img=img {
+ }
+ js=js {
+ }
+ libs=libs {
+  controller=controller {
+   BaseController.php
+  }
+  db=db {
+   BaseModelDB.php
+  }
+  model=model {
+   BaesModelRouter.php
+   BaseModel.php
+   BaseModelError.php
+  }
+  view=view {
+   BaseView.php
+   Smarty.class.php
+   SmartyBC.class.php
+   debug.tpl
+   myplugins=myplugins {
+   }
+   plugins=plugins {
+    block.textformat.php
+    function.counter.php
+    function.cycle.php
+    function.fetch.php
+    function.html_checkboxes.php
+    function.html_image.php
+    function.html_options.php
+    function.html_radios.php
+    function.html_select_date.php
+    function.html_select_time.php
+    function.html_table.php
+    function.mailto.php
+    function.math.php
+    modifier.capitalize.php
+    modifier.date_format.php
+    modifier.debug_print_var.php
+    modifier.escape.php
+    modifier.regex_replace.php
+    modifier.replace.php
+    modifier.spacify.php
+    modifier.truncate.php
+    modifiercompiler.cat.php
+    modifiercompiler.count_characters.php
+    modifiercompiler.count_paragraphs.php
+    modifiercompiler.count_sentences.php
+    modifiercompiler.count_words.php
+    modifiercompiler.default.php
+    modifiercompiler.escape.php
+    modifiercompiler.from_charset.php
+    modifiercompiler.indent.php
+    modifiercompiler.lower.php
+    modifiercompiler.noprint.php
+    modifiercompiler.string_format.php
+    modifiercompiler.strip.php
+    modifiercompiler.strip_tags.php
+    modifiercompiler.to_charset.php
+    modifiercompiler.unescape.php
+    modifiercompiler.upper.php
+    modifiercompiler.wordwrap.php
+    outputfilter.trimwhitespace.php
+    shared.escape_special_chars.php
+    shared.literal_compiler_param.php
+    shared.make_timestamp.php
+    shared.mb_str_replace.php
+    shared.mb_unicode.php
+    shared.mb_wordwrap.php
+    variablefilter.htmlspecialchars.php
+   }
+   sysplugins=sysplugins {
+    smarty_cacheresource.php
+    smarty_cacheresource_custom.php
+    smarty_cacheresource_keyvaluestore.php
+    smarty_config_source.php
+    smarty_internal_cacheresource_file.php
+    smarty_internal_compile_append.php
+    smarty_internal_compile_assign.php
+    smarty_internal_compile_block.php
+    smarty_internal_compile_break.php
+    smarty_internal_compile_call.php
+    smarty_internal_compile_capture.php
+    smarty_internal_compile_config_load.php
+    smarty_internal_compile_continue.php
+    smarty_internal_compile_debug.php
+    smarty_internal_compile_eval.php
+    smarty_internal_compile_extends.php
+    smarty_internal_compile_for.php
+    smarty_internal_compile_foreach.php
+    smarty_internal_compile_function.php
+    smarty_internal_compile_if.php
+    smarty_internal_compile_include.php
+    smarty_internal_compile_include_php.php
+    smarty_internal_compile_insert.php
+    smarty_internal_compile_ldelim.php
+    smarty_internal_compile_nocache.php
+    smarty_internal_compile_private_block_plugin.php
+    smarty_internal_compile_private_function_plugin.php
+    smarty_internal_compile_private_modifier.php
+    smarty_internal_compile_private_object_block_function.php
+    smarty_internal_compile_private_object_function.php
+    smarty_internal_compile_private_print_expression.php
+    smarty_internal_compile_private_registered_block.php
+    smarty_internal_compile_private_registered_function.php
+    smarty_internal_compile_private_special_variable.php
+    smarty_internal_compile_rdelim.php
+    smarty_internal_compile_section.php
+    smarty_internal_compile_setfilter.php
+    smarty_internal_compile_while.php
+    smarty_internal_compilebase.php
+    smarty_internal_config.php
+    smarty_internal_config_file_compiler.php
+    smarty_internal_configfilelexer.php
+    smarty_internal_configfileparser.php
+    smarty_internal_data.php
+    smarty_internal_debug.php
+    smarty_internal_filter_handler.php
+    smarty_internal_function_call_handler.php
+    smarty_internal_get_include_path.php
+    smarty_internal_nocache_insert.php
+    smarty_internal_parsetree.php
+    smarty_internal_resource_eval.php
+    smarty_internal_resource_extends.php
+    smarty_internal_resource_file.php
+    smarty_internal_resource_php.php
+    smarty_internal_resource_registered.php
+    smarty_internal_resource_stream.php
+    smarty_internal_resource_string.php
+    smarty_internal_smartytemplatecompiler.php
+    smarty_internal_template.php
+    smarty_internal_templatebase.php
+    smarty_internal_templatecompilerbase.php
+    smarty_internal_templatelexer.php
+    smarty_internal_templateparser.php
+    smarty_internal_utility.php
+    smarty_internal_write_file.php
+    smarty_resource.php
+    smarty_resource_custom.php
+    smarty_resource_recompiled.php
+    smarty_resource_uncompiled.php
+    smarty_security.php
+   }
+  }
+ }
+ model=model {
+  db=db {
+  }
+ }
+}
