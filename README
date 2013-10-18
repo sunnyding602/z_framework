@@ -19,3 +19,27 @@ model    工具层 这里的类继承了 basemodelmemcached 之类的东东. 当
 css  
 img
 js
+阿帕奇配置
+  <VirtualHost *:80>
+      ServerAdmin sunny@bnz.com
+      DocumentRoot "/Users/sunnyding602/github_commbo_game/z_framework"
+      ServerName bnz.com
+      ServerAlias www.bnz.com
+      SetEnv DB_NAME bnz
+      SetEnv DB_PORT 3306
+      SetEnv DB_PASS 123456
+      SetEnv DB_USER root
+      SetEnv DB_ENGINE mysql
+      SetEnv DB_HOST 127.0.0.1
+      ErrorLog "/private/var/log/apache2/bnz.com-error_log"
+      CustomLog "/private/var/log/apache2/bnz.com-access_log" common
+      <Directory />
+      Options FollowSymLinks
+      AllowOverride All
+      Order allow,deny
+      allow from all
+      </Directory>
+      RewriteEngine On
+      RewriteCond %{REQUEST_URI} !((^/(css|js|image|images)/)|((\.(css|js|png|jpe?g|swf|gif|ico|php|s?html)|robots\.txt|crossdomain\.xml)$))
+      RewriteRule (.*) /index.php/$1 [L]
+  </VirtualHost>
